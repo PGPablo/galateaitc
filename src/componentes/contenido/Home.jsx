@@ -113,6 +113,11 @@ class Home extends React.Component {
 
 
   render(){
+    if ( (localStorage.getItem("token") === "undefined") ) {
+      localStorage.clear();
+      window.location.href = '/';
+      alert('Usuario invalido');
+    }
     return(
       <div className="Home-fondo">
         <TopBar />
