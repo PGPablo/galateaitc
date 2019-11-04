@@ -55,7 +55,7 @@ class Home extends React.Component {
         pregunta_3: this.state.pregunta3
     })
 
-    axios.post('https://galateaitc-api.herokuapp.com/api/EncuestaDiariaList/', data, {
+    axios.post('/api/EncuestaDiariaList/', data, {
         headers: {
             'Content-Type': 'application/json',
             "Authorization": "Token "+localStorage.getItem("token"),
@@ -78,7 +78,7 @@ class Home extends React.Component {
         pregunta_9: this.state.pregunta9,
     })
 
-    axios.post('https://galateaitc-api.herokuapp.com/api/EncuestaInicialList/', data, {
+    axios.post('/api/EncuestaInicialList/', data, {
         headers: {
             'Content-Type': 'application/json',
             "Authorization": "Token "+localStorage.getItem("token"),
@@ -102,7 +102,7 @@ class Home extends React.Component {
         pregunta_11: this.state.pregunta11,
     })
 
-    axios.post('https://galateaitc-api.herokuapp.com/api/EncuestaFinalList/', data, {
+    axios.post('/api/EncuestaFinalList/', data, {
         headers: {
             'Content-Type': 'application/json',
             "Authorization": "Token "+localStorage.getItem("token"),
