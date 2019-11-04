@@ -40,7 +40,7 @@ export const checkAuthTimeout = expirationTime => {
 export const authLogin = (email, password) => {
     return dispatch => {
         dispatch(authStart());
-        axios.post('http://localhost:8000/api/auth/login/', {
+        axios.post('https://galateaitc-api.herokuapp.com/api/auth/login/', {
             email: email,
             password: password
         })
@@ -61,7 +61,7 @@ export const authLogin = (email, password) => {
 export const authSignup = (username, email, password1, password2) => {
     return dispatch => {
         dispatch(authStart());
-        axios.post('http://127.0.0.1:8000/api/auth/registration/', {
+        axios.post('https://galateaitc-api.herokuapp.com/api/auth/registration/', {
             username: username,
             email: email,
             password1: password1,
