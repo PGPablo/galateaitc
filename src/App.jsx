@@ -1,9 +1,7 @@
 
 import React, { Component } from 'react'
 import { Route, Redirect } from 'react-router-dom'
-import { connect } from 'react-redux';
-import 'antd/dist/antd.css';
-import * as actions from './store/actions/auth';
+import 'antd/dist/antd.css'
 
 import Home from './componentes/contenido/Home'
 import Login from './componentes/login/Login'

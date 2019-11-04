@@ -21,6 +21,7 @@ import '../../css/Home.css'
 const { Panel } = Collapse;
 
 class Home extends React.Component {
+
   state = {
     pregunta1: "",
     pregunta2: "",
@@ -113,16 +114,11 @@ class Home extends React.Component {
 
 
   render(){
-    if ( (localStorage.getItem("token") === "undefined") ) {
-      localStorage.clear();
-      window.location.href = '/';
-      alert('Usuario invalido');
-    }
+
     return(
       <div className="Home-fondo">
         <TopBar />
           <div className="container">
-
           <Collapse
             bordered={true}
             defaultActiveKey={['1']}
