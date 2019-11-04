@@ -1,0 +1,29 @@
+.color-face{
+  color: #2471A3;
+}
+
+.color-insta{
+  color: #8A0599;
+}
+
+.iconInsta:hover, .iconFace:hover{
+  color: #515A5A;
+}
+
+.navbar{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+.boton-azul{
+  color: #000;
+  border-radius: 30in;
+  border-color: #000;
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

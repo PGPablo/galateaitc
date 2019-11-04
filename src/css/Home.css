@@ -1,0 +1,70 @@
+.Home-fondo{
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.customPanelStyle{
+  background: '#f7f7f7';
+  border-radius: 4;
+  margin-bottom: 24;
+  border: 0;
+  overflow: 'hidden';
+}
+
+.color-fondo{
+  color: #000;
+  background: #2980B9 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.texto-centrado{
+  text-align: center;
+}
+
+.icono-encuestra{
+  width: 32px;
+  height: 32px;
+}
+
+@media only screen and (max-width: 700px) {
+  .icono-encuestra {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.martop-2{
+  margin-top: 2%;
+}
+
+.borde-menu{
+  border: 1px solid #212529;
+  background-color: #FFF;
+}
+
+.boton-dia{
+  width: 100%;
+  background-color: #52ccff;
+  border-color: #52ccff;
+}
+
+.boton-inicio{
+  width: 45%;
+  margin-right: 10%;
+  background-color: #52ccff;
+  border-color: #52ccff;
+}
+
+.boton-fin{
+  width: 45%;
+  background-color: #52ccff;
+  border-color: #52ccff;
+}

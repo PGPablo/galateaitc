@@ -1,0 +1,14 @@
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+
+export const TEST_DIA_SUCCESS = "TEST_DIA_SUCCESS";
+export const TEST_DIA_FAIL = "TEST_DIA_FAIL";
+
+export const TEST_INICIO_SUCCESS = "TEST_INICIO_SUCCESS";
+export const TEST_INICIO_FAIL = "TEST_INICIO_FAIL";
+
+export const TEST_FIN_SUCCESS = "TEST_FIN_SUCCESS";
+export const TEST_FIN_FAIL = "TEST_FIN_FAIL";

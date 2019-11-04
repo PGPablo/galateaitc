@@ -1,0 +1,41 @@
+.Login {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.Login-logo {
+  height: 40vmin;
+}
+
+.Login-header {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: white;
+}
+
+.Login-body {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.Login-iconos {
+  font-size: calc(20px + 2vmin);
+}
+
+.Login-boton {
+  margin-top: 10%;
+}
